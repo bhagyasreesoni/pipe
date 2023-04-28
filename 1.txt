@@ -34,14 +34,4 @@ steps {
     }  
 }
 
-post {  
-        always {
-            echo "Execute Always"
-        }
-       success {
-            echo "Success"
-        }
-        failure {
-            echo "Failure"
-        }
-    }
+
